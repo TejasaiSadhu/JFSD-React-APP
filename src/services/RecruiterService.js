@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:8080/recruiter';
+const baseUrl =  `${config.baseURL}/recruiter`;
 
 // Helper function to create headers
 const createHeaders = () => ({

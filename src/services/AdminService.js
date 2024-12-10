@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:8080/admin';
+const baseUrl =  `${config.baseURL}/admin`;
 
 // Helper function to create headers
 const createHeaders = () => ({

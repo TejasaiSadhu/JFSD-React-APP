@@ -1,7 +1,8 @@
 // src/services/BookmarkedFreelancerService.js
 import axios from 'axios';
+import config from '../config';
 
-const baseUrl = 'http://localhost:8080/bmark/freelancer';
+const baseUrl = `${config.baseURL}/bmark/freelancer;
 
 // Helper function to create headers
 const createHeaders = () => ({

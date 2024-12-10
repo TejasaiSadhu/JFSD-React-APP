@@ -1,7 +1,7 @@
 // src/services/SkillExperienceService.js
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:8080/skillExperience';
+const baseUrl =  `${config.baseURL}/skillExperience`;
 
 // Helper function to create headers
 const createHeaders = () => ({

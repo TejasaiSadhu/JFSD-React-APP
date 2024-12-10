@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for the job-related API
-const baseUrl = 'http://localhost:8080/job';
+const baseUrl =  `${config.baseURL}/job`;
 
 // Helper function to create headers for API requests
 const createHeaders = () => ({

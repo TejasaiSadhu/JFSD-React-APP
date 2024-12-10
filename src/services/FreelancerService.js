@@ -1,7 +1,7 @@
 // src/services/FreelancerService.js
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:8080/freelancer';
+const baseUrl =  `${config.baseURL}/freelancer`;
 
 // Helper function to create headers
 const createHeaders = () => ({

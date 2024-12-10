@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:8080/feedbacks';
+const baseUrl =  `${config.baseURL}/feedbacks`;
 
 // Helper function to create headers
 const createHeaders = () => ({
