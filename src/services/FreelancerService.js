@@ -1,6 +1,6 @@
 // src/services/FreelancerService.js
 import axios from 'axios';
-
+import config from '../config';
 const baseUrl =  `${config.baseURL}/freelancer`;
 
 // Helper function to create headers

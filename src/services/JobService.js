@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import config from '../config';
 // Base URL for the job-related API
 const baseUrl =  `${config.baseURL}/job`;
 

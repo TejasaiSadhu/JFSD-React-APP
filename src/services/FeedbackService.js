@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import config from '../config';
 const baseUrl =  `${config.baseURL}/feedbacks`;
 
 // Helper function to create headers

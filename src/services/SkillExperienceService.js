@@ -1,6 +1,6 @@
 // src/services/SkillExperienceService.js
 import axios from 'axios';
-
+import config from '../config';
 const baseUrl =  `${config.baseURL}/skillExperience`;
 
 // Helper function to create headers

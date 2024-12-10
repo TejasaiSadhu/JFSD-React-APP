@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "online-service-portal-jfsd",
+    "ignore": ["firebase.json", "/.*", "/node_modules/"],
+    "headers": [
+      {
+        "source": "/*.@(js|mjs|jsx)",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

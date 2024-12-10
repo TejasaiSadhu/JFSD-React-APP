@@ -1,4 +1,5 @@
 import axios from 'axios';
+import config from '../config';
 
 const baseUrl =  `${config.baseURL}/bmark/job`;
 
